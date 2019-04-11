@@ -1,0 +1,27 @@
+{
+  "orgName": "Lightning Village Workshop",
+  "description": "Lightning Village participant Org",
+  "edition": "Developer",
+  "hasSampleData": "true",
+  "features": ["ServiceCloud", "LightningServiceConsole"],
+  "settings": {
+    "orgPreferenceSettings": {
+      "chatterEnabled": true,
+      "pathAssistantsEnabled": true,
+      "s1DesktopEnabled": true,
+      "s1EncryptedStoragePref2": false
+    },
+    "caseSettings": {
+        "emailToCase" : {
+        "enableE2CSourceTracking": true,
+        "enableEmailToCase": true,
+        "enableHtmlEmail": false,
+        "enableOnDemandEmailToCase": false,
+        "enableThreadIDInBody": true,
+        "enableThreadIDInSubject": true,
+        "notifyOwnerOnNewCaseEmail": false,
+        "preQuoteSignature": false
+      }
+    }
+  }
+}
